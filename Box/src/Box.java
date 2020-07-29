@@ -19,9 +19,10 @@ class Box {
 		char star = '*';
 		int max = size;
 		for (int i = 0 ; i < max ; i++) {
-			for (int j=i ; j < max ; j++)
+			//for (int j=i ; j < max ; j++)
 	
-				System.out.print(star); }
+				System.out.print(star);
+				}
 		}
 		
 		public void setSize(int size) {
