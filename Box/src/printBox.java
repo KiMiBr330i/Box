@@ -2,10 +2,26 @@
 public class printBox {
 
 	public static void printBox() {
-		int size = 0;
+		
 		char star = '*';
-		for (int i = 0 ; i < size ; i++)
-			System.out.print(star);	
+		int max = size ;
+		for (int i = 0 ; i < max ; i++) {
+			for (int j=i ; j < max ; j++)
+	
+				System.out.print(star); }
+
+
+
+
+
+	}	
+
+	public static setSize() {
+		int size1 = 5;
+		return size1;
+}
+	public static getSize() {
+		return size1;
 	}
 
 }
